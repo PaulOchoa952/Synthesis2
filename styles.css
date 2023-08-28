@@ -1,0 +1,71 @@
+/* Estilos para centrar el título en el medio del div */
+.Synthesis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Otros estilos para el div */
+    background-color: #dad4d4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(38, 38, 38, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Synthesis:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+
+/* Estilos para el título */
+.Synthesis h1 {
+    font-size: 34px;
+    color: #333;
+    text-align: center; /* Asegura que el texto del título también esté centrado */
+    margin: 0; /* Elimina el margen superior e inferior predeterminado */
+}
+
+.Synthesis {
+    /* ...otros estilos... */
+    text-align: center; /* O "left" / "right" según tu preferencia */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Estilos para el contenido */
+.Content {
+    text-align: center;
+    background-color: #dad4d4;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna para apilar elementos verticalmente */
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+
+/* Estilos para el párrafo de Introducción */
+.Content p {
+    font-size: 20px;
+    color: #555151;
+    margin: 0;
+    position: relative; /* Asegura que el párrafo mantenga su posición en el flujo de contenido */
+    z-index: 1; /* Asegura que el párrafo esté en la capa superior */
+    text-align: justify;
+}
+
+/* Estilos para el contenedor de fondo */
+.fondo {
+    background-image: url('img/a3.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 50px; /* Añade un relleno para separar el contenido del borde */
+    position: relative; /* Necesario para alinear los elementos internos */
+}
