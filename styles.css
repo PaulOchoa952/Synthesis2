@@ -6,8 +6,8 @@
     /* Otros estilos para el div */
     background-color: #dad4d4;
     border: 1px solid #ccc;
-    padding: 20px;
-    margin: 30px;
+    padding: 10px;
+    margin: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(38, 38, 38, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -27,10 +27,6 @@
     margin: 0; /* Elimina el margen superior e inferior predeterminado */
 }
 
-.Synthesis {
-    /* ...otros estilos... */
-    text-align: center; /* O "left" / "right" según tu preferencia */
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -53,7 +49,7 @@ body {
 
 /* Estilos para el párrafo de Introducción */
 .Content p {
-    font-size: 20px;
+    font-size: 1.2em;
     color: #555151;
     margin: 0;
     position: relative; /* Asegura que el párrafo mantenga su posición en el flujo de contenido */
@@ -69,3 +65,4 @@ body {
     padding: 50px; /* Añade un relleno para separar el contenido del borde */
     position: relative; /* Necesario para alinear los elementos internos */
 }
+
